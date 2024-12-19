@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio for a freelance content writer offering SEO-friendly services.">
+    <link rel="icon" href="indir.png" type="image/x-icon">
+    <title>Yusuf's Freelance Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .hero .cta-btn {
+            margin-top: 1rem;
+            background: #ff5722;
+            color: #fff;
+            padding: 0.7rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .hero .cta-btn:hover {
+            background: #e64a19;
+        }
+        .services, .about, .portfolio, .contact, .blog {
+            background: #f4f4f4;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        .service-item, .portfolio-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .service-item img, .portfolio-item img {
+            max-width: 100px;
+            margin-right: 1rem;
+        }
+        .service-item p, .portfolio-item p {
+            flex: 1;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+            margin: 0.5rem 0;
+        }
+        .btn {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 0.7rem;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #555;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Yusuf</h1>
+        <p>I specialize in creating SEO-friendly content to boost your brand's presence.</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to My Professional Portfolio</h2>
+        <p>Let me help you enhance your online presence with high-quality content and services.</p>
+        <a href="#services" class="cta-btn">Discover My Services</a>
+    </section>
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="service-item">
+            <img src="seo-icon.png" alt="SEO icon">
+            <p>SEO-Friendly Blog Writing: Optimize your brand visibility with engaging and well-structured blogs that rank high on search engines.</p>
+        </div>
+        <div class="service-item">
+            <img src="product-icon.png" alt="Product icon">
+            <p>Product Descriptions: Highlight your products with compelling and detailed descriptions that boost conversions.</p>
+        </div>
+        <div class="service-item">
+            <img src="content-icon.png" alt="Content icon">
+            <p>Web Content Creation: Deliver impactful website content that resonates with your audience and drives engagement.</p>
+        </div>
+        <div class="service-item">
+            <img src="data-icon.png" alt="Data entry icon">
+            <p>Data Entry: Streamline your operations with accurate and efficient data management services.</p>
+        </div>
+        <div class="service-item">
+            <img src="remove-bg-icon.png" alt="Background removal icon">
+            <p>Background Removal: Enhance your visuals with precise and professional background removal services.</p>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I’m a passionate content writer with expertise in creating unique, user-friendly, and SEO-optimized articles.</p>
+        <p>With years of experience, I strive to provide exceptional services to help businesses achieve their goals.</p>
+        <a href="#contact" class="cta-btn">Work With Me</a>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="blog-example.png" alt="Blog example">
+            <p>SEO Blog Writing Sample</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="product-example.png" alt="Product example">
+            <p>Product Description Example</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="remove-bg-icon.png" alt="Background removal example">
+            <p>Background Removal Project</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p>Or connect with me on <a href="https://www.fiverr.com/yusuf7916">Fiverr</a>.</p>
+    </section>
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Tips for Writing SEO-Friendly Content</h3>
+            <p>Learn how to optimize your articles to rank higher on search engines.</p>
+            <a href="https://www.fiverr.com/yusuf7916">Get SEO Help</a>
+        </article>
+        <article>
+            <h3>Why Content Quality Matters</h3>
+            <p>Explore the impact of well-written content on your brand's success.</p>
+            <a href="https://www.fiverr.com/yusuf7916">Improve Your Content</a>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Yusuf's Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
